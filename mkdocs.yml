@@ -1,0 +1,38 @@
+site_name: XXXXX Docs
+site_description: Documentação do XXXXX, gerenciador de estacionamentos moderno \[slogan\]
+
+repo_url: 
+repo_name: 
+
+nav:
+  - Início: index.md
+  - Requisitos: requisitos.md
+
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+  - navigation.tabs
+  - navigation.tabs.sticky
+  palette:
+  - scheme: default
+    toggle:
+      icon: material/brightness-7 
+      name: Clique para trocar para Modo Escuro
+    primary: dark-blue
+
+  - scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Clique para trocar para Alto Contraste
+    primary: dark-blue
+
+  - scheme: high-contrast
+    primary: black
+    accent: yellow
+    toggle:
+      icon: material/weather-cloudy-alert
+      name: Clique para trocar para Modo Claro
+    
+  extra_css: [stylesheets/extra.css]
