@@ -1,12 +1,16 @@
-site_name: XXXXX Docs
-site_description: Documentação do XXXXX, gerenciador de estacionamentos moderno \[slogan\]
+site_name: Estaciona Rápido | Docs
+site_description: Documentação do Estaciona Rápido, gerenciador de estacionamentos moderno \[slogan\]
 
 repo_url: 
 repo_name: 
 
 nav:
   - Início: index.md
-  - Requisitos: requisitos.md
+  - Definição de Requisitos:
+    - Requisitos Funcionais: requisitos/funcionais.md
+    - Requisitos Não Funcionais: requisitos/nao_funcionais.md
+    - Protótipo de baixa fidelidade: requisitos/prototipo/baixa.md
+    - Protótipo de alta fidelidade: requisitos/prototipo/alta.md
 
 
 theme:

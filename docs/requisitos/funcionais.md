@@ -1,4 +1,4 @@
-# Requisitos
+# Requisitos Funcionais
 
 ## Perfis de Usuário
 
@@ -6,7 +6,7 @@
 - **Cliente**: interessado em entrar ou sair do estacionamento sem dificuldades, pagando o esperado/combinado.
 - **Operador**: é quem opera o software e dispotivos que ajudam a controlar a entrada do cliente no estacionamento. Interage com o sistema pelo cliente na maioria das vezes.
 
-## Requisitos Funcionais
+## *Epics*, *features* e *user stories*
 
 <!---
 Entrada
@@ -117,8 +117,3 @@ Estratégico
     </table>
 </body>
 </html> 
-
-## Requisitos Não Funcionais
-- Os ambientes e os diferentes componentes da aplicação (frontend, backend, banco de dados) devem estar em contâineres Docker.
-- O backend deve ser escrito em Java, utilizando-se do framework SpringBoot.
-- O software deve ser feito pensando em suportar ambientes desktop.
