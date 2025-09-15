@@ -2,12 +2,12 @@
 
 ## Sobre
 
-Esta documentação é referente ao software [XXXXX](), gerenciador de estacionamentos moderno \[slogan\].
+Esta documentação é referente ao software [Estaciona Rápido](), gerenciador de estacionamentos moderno \[slogan\].
 
 ## Instalação
 Enquanto essa documentação está sendo criada com a premissa de ser hospedada pelo Github Pages e portanto não deve necessitar de instalação por parte do usuário, alguém ainda pode desejar ou precisar instalá-la.
 
-Nesse caso, pode-se optar por instalar a documentação pelas instruções abaixo ou
+Nesse caso, pode-se optar por instalar a documentação pelas instruções abaixo.
 
 ### Requisitos
 - [MkDocs](https://www.mkdocs.org)
