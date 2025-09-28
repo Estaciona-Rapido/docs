@@ -11,6 +11,8 @@ nav:
     - Requisitos Não Funcionais: requisitos/nao_funcionais.md
     - Protótipo de baixa fidelidade: requisitos/prototipo/baixa.md
     - Protótipo de alta fidelidade: requisitos/prototipo/alta.md
+  - Arquitetura:
+    - Visão Geral: arquitetura/geral.md
 
 
 theme:
