@@ -24,7 +24,7 @@ Vá no topo deste repositório do Github, clique em Code e :
 git clone LINK.git
 ```
 
-### 3A. Sirva localmente 
+### 2A. Sirva localmente 
 
 É possível seguir esse passo ou o 3B.
 
@@ -37,7 +37,7 @@ mkdocs serve
 Um link aparecerá como resultado para acessar a documentação.
 
 
-### 3B. Montagem Estática
+### 2B. Montagem Estática
 
 O comando a seguir gera conteúdo estático na pasta `site`.
 
