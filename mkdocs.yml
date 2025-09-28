@@ -16,6 +16,8 @@ nav:
 theme:
   name: material
   language: pt-BR
+  logo: assets/Logo.png
+  favicon: assets/Logo.png
   features:
   - navigation.tabs
   - navigation.tabs.sticky
@@ -24,13 +26,13 @@ theme:
     toggle:
       icon: material/brightness-7 
       name: Clique para trocar para Modo Escuro
-    primary: dark-blue
+    primary: amber
 
   - scheme: slate
     toggle:
       icon: material/brightness-4
       name: Clique para trocar para Alto Contraste
-    primary: dark-blue
+    primary: deep-orange
 
   - scheme: high-contrast
     primary: black
