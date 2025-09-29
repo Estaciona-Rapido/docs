@@ -13,6 +13,7 @@ nav:
     - Protótipo de alta fidelidade: requisitos/prototipo/alta.md
   - Arquitetura:
     - Visão Geral: arquitetura/geral.md
+    - Modelagem do Banco de Dados: arquitetura/bd.md
 
 
 theme:
