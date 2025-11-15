@@ -65,63 +65,68 @@ Estratégico
         </thead>
         <tbody>
             <tr>
-                <td rowspan="5"><b>[EP01]</b> Operações Básicas</td>
-                <td rowspan="1"><b>[FE01]</b> Cadastro</td>
-                <td rowspan="1"><b>[US01]</b> Eu, como cliente, quero cadastrar-me no estacionamento para poder usufruir da vaga com a segurança de pagar o que foi combinado.</td>
+                <td rowspan="6"><b>[EP01]</b> Operações Básicas</td>
+                <td rowspan="2"><b>[FE01]</b> Cadastro</td>
+                <td><b>[US01]</b> Eu, como cliente, quero cadastrar-me no estacionamento para poder usufruir da vaga com a segurança de pagar o que foi combinado.</td>
+            </tr>
+            <tr>
+                <td><b>[US02]</b> Eu, como operador, quero ser informado da ocupação do estacionamento no sistema em tempo real para evitar ter de tentar cadastrar veículos em casos além da capacidade do estacionamento.</td>
             </tr>
             <tr>
                 <td rowspan="1"><b>[FE02]</b> Retirada</td>
-                <td><b>[US02]</b> Eu, como cliente, quero finalizar minha utilização da vaga no sistema para retirar o veículo do estacionamento.</td>
+                <td><b>[US03]</b> Eu, como cliente, quero finalizar minha utilização da vaga no sistema para retirar o veículo do estacionamento.</td>
             </tr>
             <tr>
                 <td rowspan="3"><b>[FE03]</b> Pagamento</td>
-                <td><b>[US03]</b> Eu, como cliente, quero saber quanto devo para que eu pague pelo serviço.</td>
+                <td><b>[US04]</b> Eu, como cliente, quero saber quanto devo para que eu pague pelo serviço.</td>
             </tr>
             <tr>
-                <td><b>[US04]</b> Eu, como cliente, não quero pagar pelo estacionamento caso eu só esteja de passagem.</td>
+                <td><b>[US05]</b> Eu, como cliente, não quero pagar pelo estacionamento caso eu só esteja de passagem.</td>
             </tr>
             <tr>
-                <td><b>[US05]</b> Eu, como cliente, quero escolher um modelo de cobrança para conseguir preços mais alinhados ao tempo pelo qual eu pretendo utilizar a vaga.</td>
+                <td><b>[US06]</b> Eu, como cliente, quero escolher um modelo de cobrança para conseguir preços mais alinhados ao tempo pelo qual eu pretendo utilizar a vaga.</td>
             </tr>
             <tr>
                 <td rowspan="9"><b>[EP02]</b> Customização</td>
                 <td rowspan="2"><b>[FE04]</b> Cenários</td>
-                <td><b>[US06]</b> Eu, como administrador, quero incluir configurações e valores padrão ao meu estacionamento para englobar períodos de funcionamento normal.</td>               
+                <td><b>[US07]</b> Eu, como administrador, quero incluir configurações e valores padrão ao meu estacionamento para englobar períodos de funcionamento normal.</td>               
             </tr>
             <tr>
-                <td><b>[US07]</b> Eu, como administrador, quero incluir valores e configurações excepcionais ao meu estacionamento para englobar eventos e feriados.</td>
+                <td><b>[US08]</b> Eu, como administrador, quero incluir valores e configurações excepcionais ao meu estacionamento para englobar eventos e feriados.</td>
             </tr>
             <tr>
                 <td rowspan="2"><b>[FE05]</b> Modelos de Cobrança</td>
-                <td><b>[US08]</b> Eu, como administrador, quero definir um modelo de cobrança para cobrar preços flexíveis às necessidades atuais do meu negócio.</td>
+                <td><b>[US09]</b> Eu, como administrador, quero definir um modelo de cobrança para cobrar preços flexíveis às necessidades atuais do meu negócio.</td>
             </tr>
             <tr>
-                <td><b>[US09]</b> Eu, como administrador, quero definir preços dedicados em casos exceptionais para situações como eventos ou dias espontâneos de promoção.</td>
+                <td><b>[US10]</b> Eu, como administrador, quero definir preços dedicados em casos exceptionais para situações como eventos ou dias espontâneos de promoção.</td>
             </tr>
             <tr>
                 <td rowspan="3"><b>[FE06]</b> Horários de Funcionamento</td>
-                <td><b>[US10]</b> Eu, como administrador, quero definir horários de funcionamento do estacionamento para impedir funcionamento em horário irregular</td>
+                <td><b>[US11]</b> Eu, como administrador, quero definir horários de funcionamento do estacionamento para impedir funcionamento em horário irregular</td>
             </tr>
             <tr>
-                <td><b>[US11]</b> Eu, como administrador, quero definir horários de funcionamento para casos exceptionais, como feriados e eventos.</td>
+                <td><b>[US12]</b> Eu, como administrador, quero definir horários de funcionamento para casos exceptionais, como feriados e eventos.</td>
             </tr>
             <tr>
-                <td><b>[US12]</b> Eu, como administrador, quero fechar o estacionamento em casos exceptionais para situações como feriados de parada total.</td>
+                <td><b>[US13]</b> Eu, como administrador, quero fechar o estacionamento em casos exceptionais para situações como feriados de parada total.</td>
             </tr>
             <tr>
                 <td rowspan="2"><b>[FE07]</b> Capacidade</td>
-                <td><b>[US13]</b> Eu, como administrador, não quero que entrem veículos além da capacidade do estacionamento para que não falte vagas para os meus clientes.</td>                
+                <td><b>[US14]</b> Eu, como administrador, não quero que entrem veículos além da capacidade do estacionamento para que não falte vagas para os meus clientes.</td>                
             </tr>
-                <td><b>[US14]</b> Eu, como administrador, quero definir preços dedicados em casos exceptionais para situações como eventos ou dias espontâneos de promoção.</td>
+            <tr>
+                <td><b>[US15]</b> Eu, como administrador, quero definir capacidades dedicadas em casos exceptionais para situações como eventos ou dias espontâneos de promoção.</td>
+            </tr>
             <tr>
                 <td rowspan="1"><b>[EP03]</b> Segurança Funcional</td>
                 <td rowspan="1"><b>[FE08]</b> Histórico</td>
-                <td><b>[US15]</b> Eu, como operador, quero ter acesso a um histórico de operações realizadas no aplicativo para fins de auditoria.</td>
+                <td><b>[US16]</b> Eu, como operador, quero ter acesso a um histórico de operações realizadas no aplicativo para fins de auditoria.</td>
             </tr>
             <tr>
                 <td rowspan="1"><b>[EP04]</b> Estratégico</td>
                 <td rowspan="1"><b>[FE09]</b> Insights</td>
-                <td><b>[US16]</b> Eu, como administrador, quero ter dados sobre o sucesso do meu estacionamento para tomar decisões estratégicas de forma inteligente.</td>
+                <td><b>[US17]</b> Eu, como administrador, quero ter dados sobre o sucesso do meu estacionamento para tomar decisões estratégicas de forma inteligente.</td>
             </tr>
         </tbody>
     </table>
